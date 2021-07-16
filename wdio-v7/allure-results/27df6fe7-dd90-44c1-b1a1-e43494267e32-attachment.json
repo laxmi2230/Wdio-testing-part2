@@ -1,0 +1,9 @@
+{
+  "script": "return (function (analyzeContext, done) {\n    var axeCore = window.axe;\n    var options = analyzeContext.options, context = analyzeContext.context;\n    // Add webdriverio branding\n    axeCore.configure({ branding: { application: 'webdriverio' } });\n    // Run axe-core\n    return axeCore\n        .run(context || document, options || {})\n        .then(function (results) {\n        done({ error: null, results: results });\n    })\n        .catch(function (err) {\n        done({ error: err.message, results: null });\n    });\n}).apply(null, arguments)",
+  "args": [
+    {
+      "context": null,
+      "options": {}
+    }
+  ]
+}
