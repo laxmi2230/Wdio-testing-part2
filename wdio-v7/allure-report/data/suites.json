@@ -1,0 +1,82 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "My Login application",
+    "children" : [ {
+      "name" : "should login with valid credentials",
+      "uid" : "853b0e4ef4e6bae1",
+      "parentUid" : "ff9b43c34a817b44fa9b6edf61b00141",
+      "status" : "passed",
+      "time" : {
+        "start" : 1625725069856,
+        "stop" : 1625725076910,
+        "duration" : 7054
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.124" ]
+    } ],
+    "uid" : "ff9b43c34a817b44fa9b6edf61b00141"
+  }, {
+    "name" : "Accessibility Test",
+    "children" : [ {
+      "name" : "should get the accessibility results from a page",
+      "uid" : "aa0770a456d6a623",
+      "parentUid" : "e82249c974d113510dcf0ba62d5178c7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626353760369,
+        "stop" : 1626353791174,
+        "duration" : 30805
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.124" ]
+    } ],
+    "uid" : "e82249c974d113510dcf0ba62d5178c7"
+  }, {
+    "name" : "axe test",
+    "children" : [ {
+      "name" : "should return results..",
+      "uid" : "d894359fdd4a306c",
+      "parentUid" : "318321b96cc15a2520b1d5ad6d3b82d9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626695103392,
+        "stop" : 1626695151827,
+        "duration" : 48435
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.164" ]
+    }, {
+      "name" : "should return results",
+      "uid" : "287581e43f4d05ff",
+      "parentUid" : "318321b96cc15a2520b1d5ad6d3b82d9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626696830989,
+        "stop" : 1626696873450,
+        "duration" : 42461
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.164" ]
+    }, {
+      "name" : "should return results",
+      "uid" : "5003f2a07162384b",
+      "parentUid" : "318321b96cc15a2520b1d5ad6d3b82d9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626775225678,
+        "stop" : 1626775258861,
+        "duration" : 33183
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.124" ]
+    } ],
+    "uid" : "318321b96cc15a2520b1d5ad6d3b82d9"
+  } ]
+}

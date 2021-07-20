@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu Jul 15 18:26:00 IST 2021","Thu Jul 15 18:26:31 IST 2021","30805","","Accessibility Test","","Accessibility Test","should get the accessibility results from a page","should get the accessibility results from a page",""
+"passed","Mon Jul 19 17:43:50 IST 2021","Mon Jul 19 17:44:33 IST 2021","42461","","axe test","","axe test","should return results","should return results",""
+"passed","Thu Jul 08 11:47:49 IST 2021","Thu Jul 08 11:47:56 IST 2021","7054","","My Login application","","My Login application","should login with valid credentials","should login with valid credentials",""
+"passed","Mon Jul 19 17:15:03 IST 2021","Mon Jul 19 17:15:51 IST 2021","48435","","axe test","","axe test","should return results..","should return results..",""
+"passed","Tue Jul 20 15:30:25 IST 2021","Tue Jul 20 15:30:58 IST 2021","33183","","axe test","","axe test","should return results","should return results",""

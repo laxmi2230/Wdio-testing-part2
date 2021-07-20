@@ -1,0 +1,48 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1626775196429' stop='1626775223223'>
+    <name>axe test</name>
+    <title>axe test</title>
+    <test-cases>
+        <test-case start='1626775196429' status='passed' stop='1626775223199'>
+            <name>should return results</name>
+            <title>should return results</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.124'/>
+            </parameters>
+            <steps>
+                <step start='1626775196434' status='undefined'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='7871b177-22cb-4488-9ca5-759b7153ae69-attachment.json' type='application/json' size='937722'/>
+                    </attachments>
+                    <steps>
+                        <step start='1626775223181' status='undefined'>
+                            <name>POST /session/:sessionId/execute/async</name>
+                            <title>POST /session/:sessionId/execute/async</title>
+                            <attachments>
+                                <attachment title='Request' source='72441122-f108-46e7-98ca-11b7791dd1a0-attachment.json' type='application/json' size='193'/>
+                            </attachments>
+                            <steps>
+                                <step start='1626775223192' status='undefined'>
+                                    <name>POST /session/:sessionId/url</name>
+                                    <title>POST /session/:sessionId/url</title>
+                                    <attachments>
+                                        <attachment title='Request' source='6969f13f-4af4-438c-848d-6a43b220fd46-attachment.json' type='application/json' size='43'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

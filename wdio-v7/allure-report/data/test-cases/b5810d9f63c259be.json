@@ -1,0 +1,130 @@
+{
+  "uid" : "b5810d9f63c259be",
+  "name" : "should return results",
+  "fullName" : "axe test.should return results",
+  "historyId" : "cb97a52cfba4a1aec9e4982ee36d7a11",
+  "time" : {
+    "start" : 1626352412915,
+    "stop" : 1626352426727,
+    "duration" : 13812
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "theOptions is not defined",
+  "statusTrace" : "ReferenceError: theOptions is not defined\n                    at Context.<anonymous> (C:\\Users\\HP\\testing\\wdio-v7\\test\\/ace.js:20:8)\n                    at Context.executeAsync (C:\\Users\\HP\\testing\\wdio-v7\\node_modules\\@wdio\\utils\\build\\shim.js:136:25)\n                    at Context.testFrameworkFnWrapper (C:\\Users\\HP\\testing\\wdio-v7\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:45:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "theOptions is not defined",
+    "statusTrace" : "ReferenceError: theOptions is not defined\n                    at Context.<anonymous> (C:\\Users\\HP\\testing\\wdio-v7\\test\\/ace.js:20:8)\n                    at Context.executeAsync (C:\\Users\\HP\\testing\\wdio-v7\\node_modules\\@wdio\\utils\\build\\shim.js:136:25)\n                    at Context.testFrameworkFnWrapper (C:\\Users\\HP\\testing\\wdio-v7\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:45:32)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1626352412919,
+        "stop" : 1626352426727,
+        "duration" : 13808
+      },
+      "status" : "broken",
+      "statusMessage" : "ReferenceError: theOptions is not defined\n                    at Context.<anonymous> (C:\\Users\\HP\\testing\\wdio-v7\\test\\/ace.js:20:8)\n                    at Context.executeAsync (C:\\Users\\HP\\testing\\wdio-v7\\node_modules\\@wdio\\utils\\build\\shim.js:136:25)\n                    at Context.testFrameworkFnWrapper (C:\\Users\\HP\\testing\\wdio-v7\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:45:32)",
+      "steps" : [ {
+        "name" : "GET /session/:sessionId/screenshot",
+        "time" : {
+          "start" : 1626352426706,
+          "stop" : 1626352426727,
+          "duration" : 21
+        },
+        "status" : "broken",
+        "statusMessage" : "ReferenceError: theOptions is not defined\n                    at Context.<anonymous> (C:\\Users\\HP\\testing\\wdio-v7\\test\\/ace.js:20:8)\n                    at Context.executeAsync (C:\\Users\\HP\\testing\\wdio-v7\\node_modules\\@wdio\\utils\\build\\shim.js:136:25)\n                    at Context.testFrameworkFnWrapper (C:\\Users\\HP\\testing\\wdio-v7\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:45:32)",
+        "steps" : [ {
+          "name" : "POST /session/:sessionId/url",
+          "time" : {
+            "start" : 1626352426710,
+            "stop" : 1626352426727,
+            "duration" : 17
+          },
+          "status" : "broken",
+          "statusMessage" : "ReferenceError: theOptions is not defined\n                    at Context.<anonymous> (C:\\Users\\HP\\testing\\wdio-v7\\test\\/ace.js:20:8)\n                    at Context.executeAsync (C:\\Users\\HP\\testing\\wdio-v7\\node_modules\\@wdio\\utils\\build\\shim.js:136:25)\n                    at Context.testFrameworkFnWrapper (C:\\Users\\HP\\testing\\wdio-v7\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:45:32)",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "b7a58a3a317cf69b",
+            "name" : "Request",
+            "source" : "b7a58a3a317cf69b.json",
+            "type" : "application/json",
+            "size" : 43
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : true,
+          "shouldDisplayMessage" : true,
+          "attachmentsCount" : 1
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 1
+      } ],
+      "attachments" : [ {
+        "uid" : "b3404f28cd34d9ba",
+        "name" : "Request",
+        "source" : "b3404f28cd34d9ba.json",
+        "type" : "application/json",
+        "size" : 937722
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "axe test"
+  }, {
+    "name" : "testClass",
+    "value" : "axe test"
+  }, {
+    "name" : "testMethod",
+    "value" : "should return results"
+  }, {
+    "name" : "package",
+    "value" : "axe test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-91.0.4472.124"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b5810d9f63c259be.json",
+  "parameterValues" : [ "chrome-91.0.4472.124" ]
+}

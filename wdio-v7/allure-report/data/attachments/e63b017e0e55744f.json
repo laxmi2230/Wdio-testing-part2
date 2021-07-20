@@ -1,0 +1,4 @@
+{
+  "script": "return (function (done) {\n      axe.run(function (err, results) {\n        if (err) done(err);\n        done(results);\n      });\n    }).apply(null, arguments)",
+  "args": []
+}

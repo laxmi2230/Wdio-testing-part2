@@ -1,0 +1,51 @@
+[ {
+  "uid" : "d894359fdd4a306c",
+  "name" : "should return results..",
+  "time" : {
+    "start" : 1626695103392,
+    "stop" : 1626695151827,
+    "duration" : 48435
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "287581e43f4d05ff",
+  "name" : "should return results",
+  "time" : {
+    "start" : 1626696830989,
+    "stop" : 1626696873450,
+    "duration" : 42461
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "aa0770a456d6a623",
+  "name" : "should get the accessibility results from a page",
+  "time" : {
+    "start" : 1626353760369,
+    "stop" : 1626353791174,
+    "duration" : 30805
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "853b0e4ef4e6bae1",
+  "name" : "should login with valid credentials",
+  "time" : {
+    "start" : 1625725069856,
+    "stop" : 1625725076910,
+    "duration" : 7054
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5003f2a07162384b",
+  "name" : "should return results",
+  "time" : {
+    "start" : 1626775225678,
+    "stop" : 1626775258861,
+    "duration" : 33183
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
